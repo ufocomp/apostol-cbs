@@ -1,0 +1,23 @@
+\echo [M] call event.sql
+\ir event.sql
+
+\ir './address/create.psql'
+\ir './client/create.psql'
+\ir './account/create.psql'
+\ir './device/create.psql'
+\ir './emergencyFolder/create.psql'
+\ir './staff/create.psql'
+\ir './storage/create.psql'
+\ir './manual/create.psql'
+\ir './message/create.psql'
+\ir './order/create.psql'
+\ir './product/create.psql'
+\ir './request/create.psql'
+\ir './delivery/create.psql'
+\ir './element/create.psql'
+\ir './demand/create.psql'
+\ir './task/create.psql'
+\ir './maintenance/create.psql'
+\ir './undertake/create.psql'
+\ir './repair/create.psql'
+\ir './fda/create.psql'

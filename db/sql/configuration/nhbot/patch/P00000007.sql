@@ -1,0 +1,2 @@
+DROP VIEW ObjectManual CASCADE;
+DROP VIEW ObjectTask CASCADE;

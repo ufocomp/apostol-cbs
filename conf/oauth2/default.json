@@ -1,0 +1,45 @@
+{
+  "web": {
+    "issuers": ["accounts.nhbot.com","accounts.shipping-safety.ru"],
+    "scopes": ["api","openid","profile","email"],
+    "client_id": "web-nhbot.com",
+    "client_secret": "",
+    "algorithm": "HS256",
+    "auth_uri": "/oauth2/authorize",
+    "token_uri": "/oauth2/token",
+    "redirect_uris": [
+    	"http://localhost:8080/oauth2/code",
+    	"http://localhost:8080/oauth2/callback", 
+    	"https://nhbot.com/oauth2/code",
+    	"https://nhbot.com/oauth2/callback",
+    	"https://oauthdebugger.com/debug",
+    	"https://auth.advancedrestclient.com/oauth-popup.html"
+    ]
+  },
+  "android": {
+    "issuers": ["accounts.nhbot.com","accounts.shipping-safety.ru"],
+    "scopes": ["api","openid","profile","email"],
+    "client_id": "android-nhbot.com",
+    "client_secret": "",
+    "algorithm": "HS256",
+    "auth_uri": "https://nhbot.com/oauth2/authorize",
+    "token_uri": "https://nhbot.com/oauth2/token",
+    "redirect_uris": [
+    	"http://127.0.0.1/oauth2/code",
+    	"http://127.0.0.1/oauth2/callback"
+    ]
+  },
+  "ios": {
+    "issuers": ["accounts.nhbot.com","accounts.shipping-safety.ru"],
+    "scopes": ["api","openid","profile","email"],
+    "client_id": "ios-nhbot.com",
+    "client_secret": "",
+    "algorithm": "HS256",
+    "auth_uri": "https://nhbot.com/oauth2/authorize",
+    "token_uri": "https://nhbot.com/oauth2/token",
+    "redirect_uris": [
+    	"http://127.0.0.1/oauth2/code",
+    	"http://127.0.0.1/oauth2/callback"
+    ]
+  }
+}

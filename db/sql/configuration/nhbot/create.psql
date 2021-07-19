@@ -1,0 +1,28 @@
+\echo [M] Creating configuration...
+
+\echo [M] call admin
+\ir './admin/create.psql'
+
+\echo [M] call entity
+\ir './entity/create.psql'
+
+\echo [M] call api
+\ir './api/create.psql'
+
+\echo [M] call stream
+\ir './stream/create.psql'
+
+\echo [M] call matching
+\ir './matching/create.psql'
+
+\echo [M] call participant
+\ir './participant/create.psql'
+
+\echo [M] call .oauth2.sql
+\ir .oauth2.sql
+
+\echo [M] call routine.sql
+\ir routine.sql
+
+\echo [M] call init.sql
+\ir init.sql

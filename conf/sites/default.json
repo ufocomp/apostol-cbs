@@ -1,0 +1,10 @@
+{
+  "hosts": ["localhost:8080"],
+  "root": "www",
+  "oauth2": {
+    "identifier": "/oauth/identifier",
+    "callback": "/dashboard",
+    "error": "/oauth/error",
+    "debug": "http://localhost:3000"
+  }
+}
